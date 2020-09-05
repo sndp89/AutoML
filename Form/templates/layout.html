@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Automated Model Builder </title>
+        <link rel="stylesheet" type="text/css" href="static/test.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <nav class="navbar navbar-default" style="margin-top:8px;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Automated Model Builder</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#"> API to build models <span class="sr-only">(current)</span></a></li>
+                        </ul>
+                         
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" style="border:none;">EBI</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+<div class="figure">
+<img src="/static/ebi.png" alt="ebi logo" width="160"
+     height="110"
+     title="" align="left" style="margin: 0px 20px">
+</div>
+<b>Objective :</b>
+  <p>
+ This simple API can be used to build models. The Data scientist has to provide ICE hive table or input file for development (mandatory) and out ot time datasets (optional). Currently, the automation works for modeling binary target. </br>
+ <b> Note: </b> Kerberos Changes - For people who has access to ICE cluster, please do a <b> Kinit </b> on ebdp-avdc-d010p.sys.comcast.net edge node before running this API. <b> Supported file types -  CSV and TXT </b>
+ </br>
+ 
+</p>
+
+            {% block body %}
+            {% endblock %}
+    </body>
+</html>
