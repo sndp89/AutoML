@@ -1,0 +1,40 @@
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+}
+h2 {
+    color: #21447c;
+    margin-left: 18px;
+}
+h3 {
+    color: #21447c;
+    margin-left: 16px;
+}
+.title {
+    color: #3981b7;
+    font-size: 16px;
+}
+.description {
+    color: #1976a8;
+    font-family: Arial,Helvitica,sans-serif;
+    font-size: 20px;
+}
+.description em {
+    color: orange;
+    font-size: 10px;
+}
+
+body {
+	font-family: Arial,Helvitica,sans-serif;
+}
+label, .control-label, .form-group label {
+font-weight: normal;
+}
+.form-horizontal .form-group:not(:last-child) {
+  padding-right:50px;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
